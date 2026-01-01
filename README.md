@@ -7,4 +7,29 @@ This part was confusing to me until I learned the onion analogy. The OSI model i
 # Mnemonic
 The mnemonic I used to help memorize the layers is: "(P)lease (D)o (N)ot (T)hrow (S)ausage (P)izza (A)way" --> (P)hysical, (D)ata Link, (N)etwork, (T)ransport, (S)ession, (P)resentation, (A)pplication.
 
-# 
+# The Layers
+### Layer 7 - Application
+
+### Layer 6 - Presentation
+
+### Layer 5 - Session
+
+### Layer 4 - Transport
+
+### Layer 3 - Network
+- This layer is responsible for logical addressing and routing, enabling end-to-end communication across multiple networks.
+- It forwards packets based on IP addresses but does not guarantee delivery.
+- ex) Routers, IP-configured Hosts, IP Addresses, Packets
+
+### Layer 2 - Data Link
+- This layer is responsible for hop-to-hop delivery between adjacent network interfaces.
+- It packages raw bits into frames and delivers them using Media Access Control (MAC) addresses to identify the source and destination.
+- ex) Network Interface Card (NIC), Switches, Ethernet and Wi-Fi Frames, MAC Addresses
+
+### Layer 1 - Physical
+- The technology in this layer transports bits (1's and 0's) of computer data over a physical or wireless medium.
+- ex) Copper Wires, Ethernet Cables, Fiber Optics, Wi-Fi Radio Signals, Repeaters, Hubs
+
+# Acknowledgements
+- ChatGPT
+- [Practical Networking](https://www.youtube.com/watch?v=LkolbURrtTs&pp=2AYk0gcJCU0KAYcqIYzv)

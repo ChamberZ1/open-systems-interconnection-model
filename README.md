@@ -1,5 +1,5 @@
 # Intro
-The Open Systems Interconnection (OSI) model is a powerful framework for understanding and troubleshooting network and device connectivity issues, allowing technicians and engineers to systematically narrow down problems.
+The Open Systems Interconnection (OSI) model is a powerful framework for understanding what is required for data to flow across the internet and for troubleshooting network and device connectivity issues, allowing technicians and engineers to systematically narrow down problems.
 
 The model breaks network communication into a series of distinct layers, each representing responsibilities that must work together for two devices to successfully communicate. 
 
@@ -17,6 +17,9 @@ The mnemonic I used to help memorize the layers is: "(P)lease (D)o (N)ot (T)hrow
 ### Layer 5 - Session
 
 ### Layer 4 - Transport
+- This layer is responsible for service-to-service delivery of data, ensuring that data is delivered to the correct application on a host.
+- It uses port numbers to distinguish between applications, allowing multiple services to communicate simultaneously over the network.
+- ex) UDP, TCP
 
 ### Layer 3 - Network
 - This layer is responsible for logical addressing and routing, enabling end-to-end communication across multiple networks.

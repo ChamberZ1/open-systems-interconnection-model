@@ -48,6 +48,9 @@ As a result, most real-world protocols combine session handling, data formatting
 - The technology in this layer transports bits (1's and 0's) of computer data over a physical or wireless medium.
 - ex) Copper Wires, Ethernet Cables, Fiber Optics, Wi-Fi Radio Signals, Repeaters, Hubs
 
+# Encapsulation & Decapsulation
+
+
 # Acknowledgements
 - ChatGPT
 - [Practical Networking](https://www.youtube.com/watch?v=LkolbURrtTs&pp=2AYk0gcJCU0KAYcqIYzv)

@@ -51,3 +51,4 @@ As a result, most real-world protocols combine session handling, data formatting
 # Acknowledgements
 - ChatGPT
 - [Practical Networking](https://www.youtube.com/watch?v=LkolbURrtTs&pp=2AYk0gcJCU0KAYcqIYzv)
+- [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)

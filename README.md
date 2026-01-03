@@ -1,8 +1,8 @@
 # Intro
-The Open Systems Interconnection (OSI) model is a conceptual framework for understanding what is required for data to flow across the internet. While real-world networks do not strictly implement the OSI model, it remains a valuable tool for reasoning about how network communication works and for troubleshooting network and device connectivity issues. By organizing communication into distinct layers, the model allows technicians and engineers to systematically isolate and narrow down problems.
+The Open Systems Interconnection (OSI) model is a conceptual framework for understanding what is required for data to flow across networks. While modern networks are built on the TCP/IP model, the OSI model remains a useful tool for reasoning about how network communication works and for troubleshooting network and device connectivity issues. By organizing communication into distinct layers, the model allows technicians and engineers to systematically isolate and narrow down problems.
 
-The OSI model breaks network communication into a series of layers, each representing a specific set of responsibilities that must work together for two devices to successfully communicate.
- 
+The OSI model breaks network communication into a series of layers, each representing a specific set of responsibilities that must work together for two devices to successfully communicate. 
+
 # Do You Like [Onions](https://www.youtube.com/watch?v=Lt1u6N7lueM)?
 This part was confusing to me until I learned the onion analogy. The OSI model is typically visualized as a layered stack, with Layer 7 at the top and Layer 1 at the bottom. The numbering itself is less important than what each layer represents. Higher-numbered layers are closer to the user experience and deal with application-level behavior, while lower-numbered layers are further removed from the user and focus on the physical transmission of data. The onion analogy helps clarify this idea. The outer layers of an onion are closest to you and are encountered first, much like the higher OSI layers that represent the user-facing parts of a network. As you peel inward, you move away from what the user sees and toward the core, just as lower OSI layers handle the physical and electrical details required to transmit data.
 
